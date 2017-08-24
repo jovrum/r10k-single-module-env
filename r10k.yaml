@@ -1,0 +1,8 @@
+---
+:cachedir: '/tmp/r10k/cache/'
+
+sources:
+  example:
+    remote: 'https://github.com/jovrum/r10k-single-module-env.git'
+    basedir: '/tmp/r10k/code/environments'
+    prefix: false
